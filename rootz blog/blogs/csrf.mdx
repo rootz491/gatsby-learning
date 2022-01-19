@@ -1,0 +1,23 @@
+---
+name: "Cross-Site Request Forgery"
+date: "2022-01-19"
+author: "rootz491"
+---
+
+Today i'm going to talk about  CSRF attacks and how to remediate them.
+
+### Attack
+
+Have you seen suspicious links to cute pages, yeah them, upon visiting them a number of things can happens ranging from posting bad content on your behalf to deletion of your social media account.
+
+CSRF is real-world vulnerability which can easily exploited and is seen very often in the wild!
+
+
+### Remediation
+
+To remediate this vulnerability, developer must know from where the request is coming, is intended user sending it or is it sent by some script.
+Distingushing b/w these requests can be bit tricky, like adding `csrf_token` protection or checking oriing header.
+
+But it really depends on Developer, to take actions in order to prevent this vulnerability for occuring. It's not limited to single page or limited scope most of the time. If site is vulnerable, it mean all the endpoints are vulnerable to this attack.
+
+> Overall, security is touch; So better prepare yourself to be exploited!
