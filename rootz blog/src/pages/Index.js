@@ -6,8 +6,10 @@ export default function index() {
     return (
         <Layout pageTitle="Home">
 
-            <h1>Hello World,</h1>
-            <p>This is Homepage of my new awesome site.</p>
+            <div>
+                <h1>Hello World,</h1>
+                <p>This is Homepage of my new awesome site.</p>
+            </div>
 
         </Layout>
     )

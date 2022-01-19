@@ -4,7 +4,6 @@ import Layout from '../components/Layout';
 import './blogs.css';
 
 export default function BlogsPage({ data }) {
-    console.log(data);
     return (
         <Layout>
             <div className="blogs">
