@@ -7,8 +7,8 @@ import Layout from "../components/layout"
 const IndexPage = () => (
   <Layout>
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Welcome to my new gatsby blog site.</p>
+    <p>I've used different method to server those dynamic pages this time (with better understanding of it ofc)</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -18,10 +18,8 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link to="/blogs/">Go to Blogs Page</Link> <br />
+      <Link to="/users/">Go to Users Page</Link> <br />
     </p>
   </Layout>
 )
