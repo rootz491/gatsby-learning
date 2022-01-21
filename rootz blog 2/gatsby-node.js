@@ -19,7 +19,7 @@ exports.createPages = async ({ actions, graphql }) => {
       }
     }
   `);
-    // fetching data using graphql from blogs folder using gatsby-source-filesystem & then transforming raw data into Markdowns using gatsby-plugin-mdx. Finally creating pages using createPage!
+  // fetching data using graphql from blogs folder using gatsby-source-filesystem & then transforming raw data into Markdowns using gatsby-plugin-mdx. Finally creating pages using createPage!
   result.data.allMdx.nodes.forEach(node => {
     createPage({
       path: `/blog/${node.slug}`,
